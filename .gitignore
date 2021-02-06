@@ -1,7 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
 /tmp
 /out-tsc
 # Only exists if Bazel was run
@@ -9,6 +8,9 @@
 
 # dependencies
 /node_modules
+/projects/rs-mat-intl-telephone-input/node_modules
+/projects/rs-ant-intl-telephone-input/node_modules
+/projects/rs-bs-intl-telephone-input/node_modules
 
 # profiling files
 chrome-profiler-events*.json

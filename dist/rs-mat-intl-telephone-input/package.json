@@ -1,0 +1,23 @@
+{
+  "name": "rs-mat-intl-telephone-input",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^11.1.2",
+    "@angular/core": "^11.1.2"
+  },
+  "dependencies": {
+    "@angular/material": "^11.1.2",
+    "libphonenumber-js": "^1.9.9",
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/rs-mat-intl-telephone-input.umd.js",
+  "module": "fesm2015/rs-mat-intl-telephone-input.js",
+  "es2015": "fesm2015/rs-mat-intl-telephone-input.js",
+  "esm2015": "esm2015/rs-mat-intl-telephone-input.js",
+  "fesm2015": "fesm2015/rs-mat-intl-telephone-input.js",
+  "typings": "rs-mat-intl-telephone-input.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}

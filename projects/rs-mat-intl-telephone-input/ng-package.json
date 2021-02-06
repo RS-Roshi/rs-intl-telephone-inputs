@@ -3,5 +3,10 @@
   "dest": "../../dist/rs-mat-intl-telephone-input",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "whitelistedNonPeerDependencies": [
+    "tslib",
+    "@angular/material",
+    "libphonenumber-js"
+  ]
 }
