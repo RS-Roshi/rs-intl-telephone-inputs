@@ -3,5 +3,126 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "rs-mat-intl-telephone-input": {
+      "projectType": "library",
+      "root": "projects/rs-mat-intl-telephone-input",
+      "sourceRoot": "projects/rs-mat-intl-telephone-input/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/rs-mat-intl-telephone-input/tsconfig.lib.json",
+            "project": "projects/rs-mat-intl-telephone-input/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/rs-mat-intl-telephone-input/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/rs-mat-intl-telephone-input/src/test.ts",
+            "tsConfig": "projects/rs-mat-intl-telephone-input/tsconfig.spec.json",
+            "karmaConfig": "projects/rs-mat-intl-telephone-input/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/rs-mat-intl-telephone-input/tsconfig.lib.json",
+              "projects/rs-mat-intl-telephone-input/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "rs-ant-intl-telephone-input": {
+      "projectType": "library",
+      "root": "projects/rs-ant-intl-telephone-input",
+      "sourceRoot": "projects/rs-ant-intl-telephone-input/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/rs-ant-intl-telephone-input/tsconfig.lib.json",
+            "project": "projects/rs-ant-intl-telephone-input/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/rs-ant-intl-telephone-input/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/rs-ant-intl-telephone-input/src/test.ts",
+            "tsConfig": "projects/rs-ant-intl-telephone-input/tsconfig.spec.json",
+            "karmaConfig": "projects/rs-ant-intl-telephone-input/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/rs-ant-intl-telephone-input/tsconfig.lib.json",
+              "projects/rs-ant-intl-telephone-input/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "rs-bs-intl-telephone-input": {
+      "projectType": "library",
+      "root": "projects/rs-bs-intl-telephone-input",
+      "sourceRoot": "projects/rs-bs-intl-telephone-input/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/rs-bs-intl-telephone-input/tsconfig.lib.json",
+            "project": "projects/rs-bs-intl-telephone-input/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/rs-bs-intl-telephone-input/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/rs-bs-intl-telephone-input/src/test.ts",
+            "tsConfig": "projects/rs-bs-intl-telephone-input/tsconfig.spec.json",
+            "karmaConfig": "projects/rs-bs-intl-telephone-input/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/rs-bs-intl-telephone-input/tsconfig.lib.json",
+              "projects/rs-bs-intl-telephone-input/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "rs-mat-intl-telephone-input"
 }

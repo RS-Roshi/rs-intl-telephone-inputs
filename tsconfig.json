@@ -14,6 +14,20 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "rs-ant-intl-telephone-input": [
+        "dist/rs-ant-intl-telephone-input/rs-ant-intl-telephone-input",
+        "dist/rs-ant-intl-telephone-input"
+      ],
+      "rs-bs-intl-telephone-input": [
+        "dist/rs-bs-intl-telephone-input/rs-bs-intl-telephone-input",
+        "dist/rs-bs-intl-telephone-input"
+      ],
+      "rs-mat-intl-telephone-input": [
+        "dist/rs-mat-intl-telephone-input/rs-mat-intl-telephone-input",
+        "dist/rs-mat-intl-telephone-input"
+      ]
+    },
     "target": "es2015",
     "module": "es2020",
     "lib": [
